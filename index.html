@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+    <title>Carmen Navarro's Portfolio</title>
+
+</head>
+
+<body>
+
+    <div class="index-body">
+
+        <div class="container">
+            <div class="figure1">
+                <p>Carmen</p>
+                <span>Navarro</span>
+                <div class="text-center">
+                    <a href="https://github.com/cartxu" target="_blank" class="links">
+                        <i class="devicon-github-original"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/carmen-navarrosoria/" target="_blank" class="links">
+                        <i class="devicon-linkedin-plain"></i>
+                    </a>
+
+                </div>
+
+            </div>
+            <div class="figure2" id="figure2">
+                <p>Info</p>
+            </div>
+            <a href="/projects.html">
+                <div class="figure3" id="figure3">
+                    <p>Projects</p>
+                </div>
+            </a>
+
+
+
+        </div>
+        <div id="show" style="display:none">
+            <div class="line"></div>
+            <div class="info">
+                <p>Hello world! My name is Carmen and I am a web developer.</p>
+                <p>Constantly learning and improving my skills with:</p>
+                <div class="tech-icons">
+                    <i class="devicon-javascript-plain"></i>
+                    <i class="devicon-html5-plain"></i>
+
+                    <i class="devicon-css3-plain"></i>
+
+                    <i class="devicon-bootstrap-plain"></i>
+
+                    <i class="devicon-python-plain"></i>
+
+                    <i class="devicon-nodejs-plain"></i>
+
+                    <i class="devicon-googlecloud-plain"></i>
+
+                    <i class="devicon-angularjs-plain"></i>
+
+                    <i class="devicon-react-original"></i>
+
+                    <i class="devicon-django-plain"></i>
+
+
+                    <i class="devicon-flask-original"></i>
+
+                    <i class="devicon-mongodb-plain"></i>
+
+                    <i class="devicon-postgresql-plain"></i>
+
+
+                    <i class="devicon-mysql-plain"></i>
+
+                    <i class="devicon-sqlite-plain"></i>
+
+                </div>
+
+
+
+            </div>
+            <div style="height:20rem"></div>
+        </div>
+
+
+        <script>
+            document.querySelector('#figure2').addEventListener('mouseover', () => {
+                document.querySelector('#show').style.display = 'block';
+            })
+            document.querySelector('#figure2').addEventListener('mouseout', () => {
+                document.querySelector('#show').style.display = 'none';
+            })
+        </script>
+    </div>
+</body>
+
+</html>

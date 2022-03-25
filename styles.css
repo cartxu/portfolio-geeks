@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+:root {
+    --secondary-font: 'Poiret One', cursive;
+    --main-font: 'Poppins', sans-serif;
+    --color-pacificblue: #418CB7;
+    --color-aqua: #24CFC5;
+    --color-darkblue: #001C63;
+    --color-lavender: #dbdbf8;
+    --color-violet: #FF62C0;
+    --color-gold: #FFDC99;
+}
+
+
+html {
+    font-size: 62.5%;
+    font-family: var(--main-font);
+}
+
+body {
+    margin: 0;
+    font-size: 1.4rem;
+    min-height: 100vh;
+    width: 100vw;
+    background: linear-gradient(220.55deg, var(--color-gold) 0%, var(--color-lavender) 100%);
+
+
+}
+
+.index-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-darkblue);
+}
+
+
+.container {
+    margin-top: 5rem;
+    width: 80vw;
+
+}
+
+
+.container {
+    display:flex;
+    justify-content: center;
+}
+
+.figure1{
+    margin-top: 5rem;
+    padding: 5rem;
+    border-radius: 50%;
+    background: linear-gradient(220.55deg, #24CFC5 0%, #001C63 100%);
+    cursor: pointer;
+    width: 14rem;
+    height: 14rem;
+    z-index: 1;
+}
+
+.figure1:hover {
+    margin-left: 8rem;
+    margin-bottom: -8rem;
+    transition: all 0.6s;
+    z-index: 100;
+    background: linear-gradient(80deg, #24CFC5 0%, #001C63 100%)
+}
+
+
+
+.figure1 p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: -2rem;
+    margin-left: -1.5rem;
+    color: var(--color-aqua);
+    letter-spacing: 0.8rem;
+    font-size: 2.7rem;
+    font-family: var(--secondary-font);
+   
+    
+}
+
+.figure1 span {
+    font-size: 3.5rem;
+    
+}
+
+.text-center {
+    text-align: center;
+}
+
+.links {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 3rem;
+    color: var(--color-aqua);
+    text-shadow: 1px 1px 1px var(--color-darkblue);
+}
+
+.links:hover {
+    transition: all 0.3s;
+    color: var(--color-darkblue);
+}
+
+.figure2 {
+    padding: 5rem;
+    width: 6rem;
+    height: 6rem;
+    margin-left:-10rem;
+    margin-bottom: -4rem;
+    border-radius: 50%;
+    align-self: flex-end;
+    background: linear-gradient(220.55deg, #FFDC99 0%, #FF62C0 100%);
+    cursor: pointer;
+    z-index: 2;
+}
+
+.figure2:hover{
+    border: 0.2rem solid var(--color-darkblue);
+    margin-left: -5rem;
+    margin-bottom: -5rem;
+    transition: all 0.5s;
+    background: linear-gradient(130deg, #FFDC99 0%, #FF62C0 100%);
+    z-index:20;
+}
+
+.figure2 p {
+    margin: -0.5rem;
+    color: var(--color-darkblue);
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    font-family: var(--secondary-font);
+    border-bottom: 0.1rem solid var(--color-gold);
+}
+
+.info {
+    width: 30rem;
+    padding: 2rem;
+    border: 0.2rem dotted var(--color-darkblue);
+    color: var(--color-lavender);
+    font-size: 1.6rem;
+    background-color: var(--color-pacificblue);
+}
+
+.tech-icons {
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 0px 1px 1px var(--color-darkblue);
+}
+
+.line {
+    margin-top: 4.6rem;
+    width: 25rem;
+    height: 10rem;
+    border-right: 0.2rem dotted var(--color-darkblue);
+    
+}
+
+.figure3 {
+    padding: 7rem;
+    width: 6rem;
+    height: 6rem;
+    margin-left: -11rem;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+    align-self: flex-start;
+    background: linear-gradient(220.55deg, var(--color-lavender) 0%, var(--color-aqua) 100%);
+    cursor: pointer;
+    z-index:0;
+}
+
+.figure3 p {
+    margin-top: -2rem;
+    margin-left: -3.5rem;
+    font-size: 3.5rem;
+    font-weight: 600;
+    padding: 1rem;
+    border-bottom: 0.1rem solid var(--color-gold);
+    font-family: var(--secondary-font);
+}
+
+.figure3:hover{
+    border: 0.2rem solid var(--color-gold);
+    margin-left: -12rem;
+    margin-bottom: 3rem;
+    transition: all 0.5s;
+    background: linear-gradient(80deg,  var(--color-lavender) 0%, var(--color-aqua)  100%);
+    z-index: 10;
+}
+
+
+.header {
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 50%;
+    background: linear-gradient(220.55deg, #FFBB89 0%, #7B6AE0 100%);
+    cursor: pointer;
+    width: 6rem;
+    height: 6rem;
+    justify-self: flex-start;
+    box-shadow: 1rem 1rem var(--color-darkblue);
+    z-index: 100;
+}
+
+.header:hover {
+    transition: all 0.6s;
+    z-index: 100;
+    background: linear-gradient(220.55deg, #FFBB89 0%, #7B6AE0 100%);
+    border: 0.2rem solid var(--color-darkblue);
+    box-shadow: 1rem 0.5rem var(--color-darkblue);
+}
+
+header .line-top {
+    margin-top: -6rem;
+    margin-left: 12rem;
+    z-index: -100;
+    border-top: 0.2rem dotted var(--color-darkblue);
+}
+
+header .line-top > p {
+    font-size: 6rem;
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    margin-top: -6rem;
+    margin-left: 4rem;
+}
+
+
+.header p {
+    margin-top: 0.5rem;
+    color: var(--color-darkblue);
+    letter-spacing: -0.4rem;
+    font-size: 4rem;
+    font-family: var(--secondary-font);
+    
+    
+}
+
+.project-container {
+    display: flex;
+    width: 85vw;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    margin: 1rem;
+    cursor:pointer;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    filter: grayscale(60%);
+    box-shadow: inset 0 0 10px #000000;
+    overflow: hidden;
+}
+
+.project:hover {
+    transition: all 0.5s;
+    transition-delay: ;
+    transform: rotate(360deg);
+    filter: drop-shadow(0.5rem 0.5rem 0.5rem var(--color-aqua));
+    box-shadow: 0 0 10px #00000000;
+
+}
+
+.project p {
+    font-size: 4rem;
+    
+}
+
+
+.tech {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 15rem;
+    width: 25rem;
+    height: 10rem;
+    padding:1rem;
+    background: linear-gradient(220.55deg, #FFBB89 0%, #7B6AE0 100%);
+    z-index: -5;
+    color: var(--color-darkblue);
+    font-size: 3rem;
+    text-shadow: 1px 1px 1px var(--color-aqua);
+}
+
+.tech .icons {
+    text-align: center;
+    padding: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;;
+
+}
+
+.tech i {
+    margin: 0.1rem;
+}

@@ -96,8 +96,10 @@ a {
 }
 
 .contact-link {
+    font-size: 1.6rem;
     text-decoration: none;
     color: var(--color-aqua);
+    text-decoration: underline;
 }
 
 .contact-link:hover{
@@ -371,3 +373,23 @@ header .line-top > p {
     letter-spacing: 0.1rem;
 
 }
+
+@media (max-width: 70rem) {
+    .card {
+        padding: 3rem;
+        width: 80%;
+    }
+  }
+
+  @media (max-width: 50rem) {
+    .card {
+        padding: 3rem;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-details, .avatar {
+        width: 80%;
+    }
+  }

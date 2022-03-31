@@ -58,9 +58,53 @@ a {
     border-radius: 50%;
     background: linear-gradient(220.55deg, #24CFC5 0%, #001C63 100%);
     cursor: pointer;
-    width: 14rem;
-    height: 14rem;
+    width: 25rem;
+    height: 25rem;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.figure1 p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: -2rem;
+    margin-left: -1.5rem;
+    color: var(--color-aqua);
+    letter-spacing: 0.8rem;
+    font-size: 5rem;
+    font-family: var(--secondary-font);
+   
+    
+}
+
+.figure1 span {
+    padding-left: 2rem;
+    font-size: 5.5rem;
+    
+}
+
+@media (max-width:60rem){
+    .figure1{
+        margin-top: 5rem;
+        padding: 5rem;
+        width: 14rem;
+        height: 14rem;
+    }
+
+    .figure1 p {
+        font-size: 3rem;
+    }
+
+    .figure1 span {
+        font-size: 3.5rem;
+    }
+
+    .contact-link {
+        font-size: 1.5rem;
+    }
 }
 
 .figure1:hover {
@@ -73,30 +117,12 @@ a {
 }
 
 
-.figure1 p {
-    margin: 0;
-    padding: 0;
-    margin-bottom: -2rem;
-    margin-left: -1.5rem;
-    color: var(--color-aqua);
-    letter-spacing: 0.8rem;
-    font-size: 2.7rem;
-    font-family: var(--secondary-font);
-   
-    
-}
-
-.figure1 span {
-    font-size: 3.5rem;
-    
-}
-
 .text-center {
     text-align: center;
 }
 
 .contact-link {
-    font-size: 1.6rem;
+    font-size: 2rem;
     text-decoration: none;
     color: var(--color-aqua);
     text-decoration: underline;
@@ -121,9 +147,9 @@ a {
 }
 
 .figure2 {
-    padding: 5rem;
-    width: 6rem;
-    height: 6rem;
+    padding: 3rem;
+    width: 20rem;
+    height: 20rem;
     margin-left:-10rem;
     margin-bottom: -4rem;
     border-radius: 50%;
@@ -131,6 +157,9 @@ a {
     background: linear-gradient(220.55deg, #FFDC99 0%, #FF62C0 100%);
     cursor: pointer;
     z-index: 2;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .figure2:hover{
@@ -143,13 +172,24 @@ a {
 }
 
 .figure2 p {
-    margin: -0.5rem;
     color: var(--color-darkblue);
     font-size: 4rem;
     font-weight: 600;
     letter-spacing: 0.1rem;
     font-family: var(--secondary-font);
     border-bottom: 0.1rem solid var(--color-gold);
+}
+
+@media (max-width:60rem){
+    .figure2{
+        width: 10rem;
+        height: 10rem;
+        margin-left:-8rem;
+    }
+
+    .figure2 p {
+        font-size: 2.8rem;
+    }
 }
 
 .info {
@@ -177,21 +217,22 @@ a {
 
 .figure3 {
     padding: 7rem;
-    width: 6rem;
-    height: 6rem;
-    margin-left: -11rem;
+    width: 16rem;
+    height: 16rem;
+    margin-left: -19rem;
     margin-bottom: 2rem;
     border-radius: 50%;
     align-self: flex-start;
     background: linear-gradient(220.55deg, var(--color-lavender) 0%, var(--color-aqua) 100%);
     cursor: pointer;
     z-index:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .figure3 p {
-    margin-top: -2rem;
-    margin-left: -3.5rem;
-    font-size: 3.5rem;
+    font-size: 6rem;
     font-weight: 600;
     padding: 1rem;
     border-bottom: 0.1rem solid var(--color-gold);
@@ -205,6 +246,18 @@ a {
     transition: all 0.5s;
     background: linear-gradient(80deg,  var(--color-lavender) 0%, var(--color-aqua)  100%);
     z-index: 10;
+}
+
+@media (max-width:60rem){
+    .figure3{
+        margin-left: -11rem;
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .figure3 p{
+        font-size: 4rem;
+    }
 }
 
 
@@ -381,7 +434,7 @@ header .line-top > p {
     }
   }
 
-  @media (max-width: 50rem) {
+@media (max-width: 50rem) {
     .card {
         padding: 3rem;
         width: 80%;

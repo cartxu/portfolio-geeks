@@ -90,8 +90,8 @@ a {
     .figure1{
         margin-top: 5rem;
         padding: 5rem;
-        width: 14rem;
-        height: 14rem;
+        width: 15rem;
+        height: 15rem;
     }
 
     .figure1 p {
@@ -103,7 +103,7 @@ a {
     }
 
     .contact-link {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -182,8 +182,8 @@ a {
 
 @media (max-width:60rem){
     .figure2{
-        width: 10rem;
-        height: 10rem;
+        width: 11rem;
+        height: 11rem;
         margin-left:-8rem;
     }
 
@@ -251,8 +251,8 @@ a {
 @media (max-width:60rem){
     .figure3{
         margin-left: -11rem;
-        width: 6rem;
-        height: 6rem;
+        width: 7rem;
+        height: 7rem;
     }
 
     .figure3 p{
